@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pregunta</title>
+		<script src="../js/form.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<link rel="stylesheet" href="../css/styles.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header-cont">
+				<img
+					src="../img/Logo expo.png"
+					alt="logo-expo"
+					class="logo-expo"
+				/>
+				<img
+					src="../img/Logo Comisión.png"
+					alt="logo-comision"
+					class="logo-comision"
+				/>
+			</div>
+		</header>
+
+		<section class="preg-cont cambiorespuesta">
+			<section class="preg-c1">
+				<div class="titles">
+					<h2 class="title">
+						ESTACIÓN DE INTELIGENCIA ARTIFICIAL 01 /
+						<span class="title title-color">EL INFORME FINAL</span>
+					</h2>
+					<a href="../html/home.html"
+						><button class="volver">< VOLVER AL MENÚ</button></a
+					>
+				</div>
+				<div class="texts">
+					<p class="text">
+						Elegiste el capítulo del Informe Final de la Comisión de
+						la Verdad de Colombia que trata sobre:
+					</p>
+					<h1 class="cap-title text-cap1">
+						CONVOCATORIA LA PAZ GRANDE
+					</h1>
+					<p class="sub text-cap1">
+						Declaración de la Comisión para el Esclarecimiento de la
+						Verdad, la Convivencia y la No Repetición.
+					</p>
+					<p class="text">
+						Ten en cuenta que tu consulta debe estar relacionada con
+						el tema del capítulo elegido.<br />
+						Si quieres preguntar sobre otro tema,
+						<a href="../html/home.html">regresa al menú</a> y elige
+						otro de los 11 capítulos.
+					</p>
+					<hr />
+
+					<p class="text">
+						La IA dará dos respuestas a tu pregunta: <br />
+						La primera será
+						<strong
+							>una interpretación* basada en el capítulo del
+							Informe Final que elegiste</strong
+						>
+						y la segunda,
+						<strong
+							>una interpretación* basada en los casos
+							ilustrativos elaborados por la CEV</strong
+						>, que profundizan las investigaciones del Informe.
+					</p>
+				</div>
+			</section>
+		</section>
+
+		<section class="resp-cont cambiorespuesta" style="display: none;">
+			<section class="resp-c1">
+				<div class="titles">
+					<h2 class="title">
+						ESTACIÓN DE INTELIGENCIA ARTIFICIAL 01 /
+						<span class="title title-color">EL INFORME FINAL</span>
+					</h2>
+					<a href="../html/home.html"
+						><button class="volver">
+							< VOLVER AL MENÚ
+						</button></a
+					>
+				</div>
+				<div class="texts">
+					<p class="text">
+						Elegiste el capítulo del Informe Final de la Comisión de
+						la Verdad de Colombia que trata sobre:
+					</p>
+					<h1 class="cap-title text-cap1">
+						CONVOCATORIA LA PAZ GRANDE
+					</h1>
+					<p class="sub text-cap1">
+						Declaración de la Comisión para el Esclarecimiento de la
+						Verdad, la Convivencia y la No Repetición.
+					</p>
+					<hr />
+					<div class="pregunta">
+						<p>TU PREGUNTA FUE:</p>
+						<span
+							>¿Cuántas personas han sido asesinadas a lo largo de
+							todo el conflicto interno colombiano?</span
+						>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<section
+			class="resp-c2 bg-res-cap1 cambiorespuesta"
+			style="display: none;"
+		>
+			<div class="respuestas">
+				<div class="respuesta1">
+					<h3>RESPUESTA 1*</h3>
+					<h4 class="text-cap1">
+						LUEGO DE CONSULTAR EL INFORME FINAL<br />DE LA COMISIÓN
+						DE LA VERDAD:
+					</h4>
+					<p>
+						Hasta la última actualización en septiembre de 2021, se
+						estimaba que más de 8,8 millones de personas habían sido
+						desplazadas internamente en Colombia debido a la
+						violencia y el conflicto armado. Sin embargo, ten en
+						cuenta que estas cifras podrían haber cambiado desde
+						entonces. <br />
+						<br />
+						El desplazamiento interno en Colombia ha sido una
+						situación compleja y persistente a lo largo de los años,
+						y ha afectado a muchas comunidades en diferentes
+						regiones del país. Para obtener datos más actualizados y
+						precisos sobre el número de desplazados por la violencia
+						en Colombia, te recomendaría consultar fuentes
+						confiables y actualizadas, como organismos
+						gubernamentales, organizaciones no gubernamentales o
+						informes de medios de comunicación.
+					</p>
+				</div>
+				<div class="respuesta2">
+					<h3>RESPUESTA 2*</h3>
+					<h4 class="text-cap1">
+						LUEGO DE CONSULTAR LOS CASOS DE INVESTIGACIÓN<br />ELABORADOS
+						POR LA COMISIÓN DE LA VERDAD:
+					</h4>
+					<p>
+						Hasta la última actualización en septiembre de 2021, se
+						estimaba que más de 8,8 millones de personas habían sido
+						desplazadas internamente en Colombia debido a la
+						violencia y el conflicto armado. Sin embargo, ten en
+						cuenta que estas cifras podrían haber cambiado desde
+						entonces. <br />
+						<br />
+						El desplazamiento interno en Colombia ha sido una
+						situación compleja y persistente a lo largo de los años,
+						y ha afectado a muchas comunidades en diferentes
+						regiones del país. Para obtener datos más actualizados y
+						precisos sobre el número de desplazados por la violencia
+						en Colombia, te recomendaría consultar fuentes
+						confiables y actualizadas, como organismos
+						gubernamentales, organizaciones no gubernamentales o
+						informes de medios de comunicación.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="resp-cont cambiorespuesta" style="display: none;">
+			<section class="resp-c3">
+				<p>
+					<strong>*NOTA:</strong>
+					<br />
+					La IA no es un buscador (como Google) que arroja otros
+					vínculos para consultar respuestas en páginas web
+					diferentes. Le IA (Inteligencia Artificial) arroja una
+					respuesta <strong>narrativa e interpretativa</strong> basada
+					en los documentos que la alimentan. En tal caso, si desea
+					leer los textos completos sobre los que la lA fundamenta sus
+					respuestas, tanto de capítulos del Informe Final como de los
+					casos de investigación, por favor acceda a la página web de
+					la Transmedia de la CEV y descárguelos:
+					<a href="www.comisiondelaverdad.co/hay-futuro-si-hay-verdad"
+						>www.comisiondelaverdad.co/hay-futuro-si-hay-verdad</a
+					>
+				</p>
+			</section>
+		</section>
+		<section class="preg-c2 bg-cap1">
+			<form class="buscar" id="formpregunta">
+				<label class="buscador-clr-txt1">HAZ AQUÍ TU PREGUNTA:</label>
+				<input
+					type="search"
+					spellcheck="true"
+					class="buscador"
+					id="pregunta"
+					required
+				/>
+				<button class="consultar buscador-clr-txt1">CONSULTAR</button>
+			</form>
+		</section>
+
+		<section class="preg-cont cambiorespuesta">
+			<section class="preg-c3">
+				<strong>*NOTA:</strong>
+				<br />
+				La IA no es un buscador (como Google) que arroja otros vínculos
+				para consultar respuestas en páginas web diferentes. Le IA
+				(Inteligencia Artificial) arroja una respuesta
+				<strong>narrativa e interpretativa</strong> basada en los
+				documentos que la alimentan. En tal caso, si desea leer los
+				textos completos sobre los que la lA fundamenta sus respuestas,
+				tanto de capítulos del Informe Final como de los casos de
+				investigación, por favor acceda a la página web de la Transmedia
+				de la CEV y descárguelos:
+				<a
+					href="https://www.comisiondelaverdad.co/hay-futuro-si-hay-verdad"
+					>www.comisiondelaverdad.co/hay-futuro-si-hay-verdad</a
+				>
+				<hr />
+			</section>
+		</section>
+		<div class="agradecimiento">
+			Agradecimiento especial a las personas que administraron el
+			repositorio de información de la Comisión para el Esclarecimiento de
+			la Verdad
+		</div>
+		<footer class="footer">
+			<div class="footer-cont">
+				<div class="logos">
+					<div class="img-logos">
+						<img
+							src="../img/Logo expo.png"
+							alt="logo-expo"
+							class="logo-expo"
+						/>
+						<img
+							src="../img/Logo Comisión.png"
+							alt="logo-comision"
+							class="logo-comision"
+						/>
+						<img
+							src="../img/CMPR.png"
+							alt="logo-cmpr"
+							class="logo-cmpr"
+						/>
+						<img
+							src="../img/GIZ.png"
+							alt="logo-giz"
+							class="logo-giz"
+						/>
+					</div>
+					<div class="TYC">
+						<a href="#"
+							>COMISIÓN DE LA VERDAD / TÉRMINOS Y CONDICIONES DE
+							LA APLICACIÓN DE LA IA</a
+						>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="../js/main.js"></script>
+		<script src="../js/form.js"></script>
+	</body>
+</html>

@@ -1,0 +1,98 @@
+.preloader {Pantalla de precarga de la página}
+
+----------------------------------------------------- * HEADER * -----------------------------------------------------
+
+.header {Background para el header}
+
+.header-cont {Contenedor para la disposición de los logos}
+
+.logo-expo, .logo-comision {Tamaño y disposición de los logos del header}
+
+----------------------------------------------------- * FOOTER * -----------------------------------------------------
+
+.footer {Backgound para el footer}
+
+.footer-cont {Contenedor del footer para limitar el width de los logos y link de terminos y condiciones}
+
+.agradecimiento {Texto de agradecimiento espacial}
+
+.logos {Contenedor para disposición de los logos y los términos y condiciones}
+
+.img-logos {Contenedor para disposición solo de los logos del footer}
+
+.logo-expo, .logo-comision, .logo-cmpr, .logo-giz {Tamaño y disposición de los logos del footer}
+
+.TYC {Estilos para link de términos y condiciones}
+
+----------------------------------------------------- * HOME * -----------------------------------------------------
+.home-cont {Contenedor principal para limitar el width el body del home}
+
+.home-c1 {Contenedor para los textos superiores a los capítulos}
+
+.titles {Contenedor de los títulos}
+
+.title {Estilo de texto de los títulos}
+
+.title-color {Color para el segundo título}
+
+.texts {Contenedor para el orden de los textos}
+
+.text {Estilo y disposición de los textos}
+
+.second-title {Estilo de letra para el título superior a los capítulos}
+
+.home-c2 {Contenedor para todos los links de los capítulos}
+
+.hide {Contenedor para ocultar el overflow del hover}
+
+.cap {Contenedor de cada capítulo a consultar}
+
+.cap1, .cap2, .cap3, .cap4, .cap5, .cap6, .cap7, .cap8, .cap9, .cap10, .cap11 {Color del backgound de cada capítulo a consultar}
+
+----------------------------------------------------- * PREGUNTA * -----------------------------------------------------
+
+.preg-cont {Contenedor principal para limitar el width del HTML de pregunta}
+
+.preg-c1 {Contenedor para la sección de textos superior al formulario}
+
+.text-cap1, .text-cap2, .text-cap3, .text-cap4, .text-cap5, .text-cap6, .text-cap7, .text-cap8, .text-cap9, .text-cap10, .text-cap11 {Colores de texto según el capítulo elegido}
+
+.cap-title {Estilo del título del capítulo elegido}
+
+.sub {Estilo subtítulo subtítulo del capítulo elegido}
+
+.bg-cap1, .bg-cap2, .bg-cap3, .bg-cap4, .bg-cap5, .bg-cap6, .bg-cap7, .bg-cap8, .bg-cap9, .bg-cap10, .bg-cap11 {Color del background formulario para realizar pregunta}
+
+.volver {Estilos para el botón de volver al home}
+
+.preg-c2 {Contenedor para el formulario de preguntas}
+
+.buscar {Contenedor para limitar los tamaños del formulario}
+
+.buscador {Estilos de la barra de busqueda}
+
+.buscador-clr-txt1, .buscador-clr-txt2, .buscador-clr-txt3, .buscador-clr-txt4, .buscador-clr-txt5, .buscador-clr-txt6, .buscador-clr-txt7, .buscador-clr-txt8,  .buscador-clr-txt9, .buscador-clr-txt10, .buscador-clr-txt11 {Color de texto del label y el botón en el formulario de busqueda}
+
+.consultar {Estilos para el botón de busqueda}
+
+.preg-c3 {Contenedor de la nota}
+
+----------------------------------------------------- * RESPUESTA * -----------------------------------------------------
+
+.resp-cont {Contenedor principal para limitar el width del HTML de respuesta}
+
+.resp-c1 {Contenedor para la sección de textos superior a las respuestas}
+
+.pregunta {Contenedor de la pregunta hecha}
+
+.bg-res-cap1, .bg-res-cap2, .bg-res-cap3, .bg-res-cap4, .bg-res-cap5, .bg-res-cap6, .bg-res-cap7, .bg-res-cap8, .bg-res-cap9, .bg-res-cap10, .bg-res-cap11 {Color del background de las respuestas}
+
+.resp-c2 {Contenedor para el background respuestas}
+
+.respuestas {Contenedor de las respuestas}
+
+.respuesta1, respuesta2 {Contenedor individual de cada respuesta}
+
+.resp-c3 {Contenedor de la nota en el HTML respuesta}
+
+.resp-c4 {Contenedor del formulario de preguntas en el HTML respuesta}
